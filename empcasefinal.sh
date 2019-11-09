@@ -5,6 +5,7 @@ RatePerHour=10
 fulltime=1
 parttime=2
 #aaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbcccccc
+#123456789
 case $reminder in
 	$fulltime )
 	hours=8 ;;
