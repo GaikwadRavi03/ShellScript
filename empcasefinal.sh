@@ -14,5 +14,3 @@ case $reminder in
 	* )
 	hours=0 ;;
 esac
-average=$(( $RatePerHour * $hours ))
-echo $average
