@@ -4,6 +4,7 @@ reminder=$(( $random % 3 ))
 RatePerHour=10
 fulltime=1
 parttime=2
+#aaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbcccccc
 case $reminder in
 	$fulltime )
 	hours=8 ;;
