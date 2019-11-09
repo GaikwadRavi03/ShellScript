@@ -14,3 +14,4 @@ case $reminder in
 	* )
 	hours=0 ;;
 esac
+echo $hello
