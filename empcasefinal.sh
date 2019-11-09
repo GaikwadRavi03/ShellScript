@@ -2,8 +2,9 @@
 random=RANDOM
 reminder=$(( $random % 3 ))
 RatePerHour=10
-fulltime=1
-parttime=2
+ftime=1
+ptime=2
+
 case $reminder in
 	$fulltime )
 	echo "employee fulltime found" ;;
@@ -11,4 +12,5 @@ case $reminder in
 	echo "employee parttime found" ;;
 	* )
 	echo "employee Not found" ;;
+	
 esac
