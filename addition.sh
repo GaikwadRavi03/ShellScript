@@ -5,7 +5,7 @@ parttime=2
 total=0
 i=1
 
-while [ $i -le 21 ]
+while [ $i -le 51 ]
 do
 reminder=$(( $RANDOM % 3 ))
 

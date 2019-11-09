@@ -1,2 +1,0 @@
-hello file 1
-hi file 2
