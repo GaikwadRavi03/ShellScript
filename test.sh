@@ -1,11 +1,11 @@
 #!/bin/bash -x
 RatePerHour=10
+employeehours=0
 fulltime=1
 parttime=2
 total=0
-i=1
 
-while [ $i -le 51 ]
+while [ $employeehours -le 51 ]
 do
 reminder=$(( $RANDOM % 3 ))
 
@@ -19,11 +19,8 @@ else
 	hours=0
 fi
 
-average=$(( $RatePerHour * $hours ))
-echo $average
-total=$(( $average + $total ))
-(( i++ ))
+employeehours=$(( $employeehours + hours ))
 done
-echo "Total :$total"
+echo "total emp hours : $employeehours"
 printf "\n"
 
