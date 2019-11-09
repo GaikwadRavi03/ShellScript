@@ -7,11 +7,10 @@ parttime=2
 
 case $reminder in
 	$fulltime )
-	hours=8 ;;
+	echo "employee fulltime found" ;;
 	$parttime )
-	hours=4 ;;
+	echo "employee parttime found" ;;
 	* )
-	hours=0 ;;
+	echo "employee Not found" ;;
+
 esac
-average=$(( $RatePerHour * $hours ))
-echo $average
