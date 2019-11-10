@@ -17,3 +17,4 @@ case $reminder in
 #my comment
 #to changes
 esac
+echo $hello
