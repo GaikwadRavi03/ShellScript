@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-# store the result in desending order.
+#  store the result in desending order.
 
 declare -A calculations
 
@@ -19,7 +19,6 @@ calculations[result3]="$result3"
 calculations[result4]="$result4"
 
 ansarray=($result1 $result2 $result3 $result4)
-echo ${ansarray[@]}
 
 echo $(printf "%s\n" ${ansarray[@]} | sort -nr) #desending order
-echo $(printf "%s\n" ${ansarray[@]} | sort -n) #asending order
+
