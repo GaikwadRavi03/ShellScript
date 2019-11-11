@@ -12,5 +12,4 @@ case $reminder in
 	echo "employee parttime found" ;;
 	* )
 	echo "employee Not found" ;;
-
 esac
