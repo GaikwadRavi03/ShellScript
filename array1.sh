@@ -22,17 +22,15 @@ function funhour() {
 }
 
 function var() {
-for (( i=1; i<=20; i++ ))
+for (( i=0; i<=20; i++ ))
 do	
-
 	total=$((  $( funhour )*$RatePerHour ))
 	salary=$(( $salary + $total ))
 	result[((counter++))]=$total
 done
-echo ${result[@]}
+echo "key : ${!result[@]} value : ${result[@]}"
 }
 	
 result=$( var )
-
 echo $result
 printf "\n"
